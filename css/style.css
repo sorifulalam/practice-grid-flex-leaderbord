@@ -140,6 +140,7 @@ main {
   }
   .player{
     flex-direction: column;
+    
   }
   .bolgs{
      grid-template-columns: repeat(1 , 1fr);
@@ -152,6 +153,7 @@ main {
   }
    .courses{
      grid-template-columns: repeat(1 , 1fr);
+     
   }
 }
 
