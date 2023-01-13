@@ -127,3 +127,34 @@ main {
   grid-row-gap: 24px;
   box-shadow: 0px 5.342289924621582px 13.35572338104248px 0px #0000000d;
 }
+
+/* use now mediya query this design */
+
+@media screen and (max-width:688px) {
+  .container{
+    width: 100%;
+  }
+  .players{
+    grid-template-columns: repeat(1 , 1fr);
+    
+  }
+  .player{
+    flex-direction: column;
+  }
+  .bolgs{
+     grid-template-columns: repeat(1 , 1fr);
+  }
+  .blog{
+    flex-direction: column;
+  }
+  .blog-info{
+    margin-top: 15px;
+  }
+   .courses{
+     grid-template-columns: repeat(1 , 1fr);
+  }
+}
+
+@media screen {
+  
+}
